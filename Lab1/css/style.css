@@ -1,0 +1,130 @@
+ /* Name: Jasmeen Hothi 
+    Class: CST 336
+    Assignment: Lab 1 Team Site
+    This is the css external file for lab1*/
+
+
+/* Body for all pages */
+body {
+    background-color: #fffbf0;
+    color: #1E1E1E;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Header */
+header {
+    color: #F7F7F7;
+    background-color: #475d21;
+    text-align: center;
+    margin: 50 px auto;
+    font-size: 1.2em;
+    padding: 0.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* Navigation */
+nav {
+    text-align: center;
+    background-color: #d5995b;
+    padding: 0.5%;
+}
+
+nav a {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #1E1E1E;
+
+}
+
+nav a:hover {
+    border-bottom: 6px #212b0f solid;
+    font-size: 2.2em;
+    transition: .9s;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 0.8em;
+    color: black;
+    background-color: #f3e4b9;
+}
+
+/* footer logo size */
+#logo{
+    width: 100px;
+    height: 100px;
+}
+/* Name under each image in home page */
+figcaption {
+    text-align: center;
+    font-size: 1.2em;
+    color: #4b5563;
+}
+
+/* images layout */
+#divDegree {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* images size */
+#photos{
+    width: 250px;
+    height: 300px;
+}
+/* welcome message */
+#para {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Table on About page */
+table {
+    margin: 0px auto;
+    border-color: #1E1E1E;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.5em;
+}
+
+#table-header {
+    background-color: #475d21;
+    color: #F7F7F7;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.table-row {
+    background-color: #f3e4b9;
+}
+
+/* list in the about page */
+ul {
+    width: 500px;
+    text-align: left;
+}
+
+/* Google form */
+
+#form{
+    width: 800px;
+    height: 700px;
+    margin: 40px auto;
+    display: flex;
+}
