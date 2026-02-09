@@ -1,0 +1,81 @@
+/* Name: Jasmeen Hothi 
+    Class: CST 336
+    Assignment: HW 1: HTML and CSS
+    This is the css external file for hw1*/
+
+body {
+    background-color: #fffbf0;
+    color: #1E1E1E;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Header */
+header {
+    color: #F7F7F7;
+    background-color: #475d21;
+    text-align: center;
+    margin: 50 px auto;
+    font-size: 1.2em;
+    padding: 0.5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    background-color: #d5995b;
+    padding: 0.5%;
+}
+
+nav a {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #1E1E1E;
+
+}
+
+nav a:hover {
+    border-bottom: 6px #212b0f solid;
+    font-size: 2.2em;
+    transition: .9s;
+    cursor: pointer;
+}
+
+nav a.active{
+    background-color: #df7912;
+    border-radius: 5px;
+
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 0.8em;
+    color: black;
+    background-color: #f3e4b9;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features{
+    flex-direction: column;
+}
+
+
+
+
+
