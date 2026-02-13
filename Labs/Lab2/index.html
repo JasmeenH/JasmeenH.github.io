@@ -5,18 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guessing Game</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body
-    style="background-image: url(https://tse4.mm.bing.net/th/id/OIP.IJjIIstXz1Iwn7-jylsPcAHaE8?pid=Api&h=220&P=0); background-size: cover; background-repeat: no-repeat;">
-    <div style="text-align: center;">
-        <header>
-            <h1>Guessing Game</h1>
-        </header>
-        <input id="guessInput">
+<body>
+    <header>
+        <h1>Guess the Number</h1>
+        <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+    </header>
+    <br><br>
+    <div id="guessbar">
+        Enter a guess: 
+        <input id="guessInput" type="text">
         <button id="guessBtn">Guess</button>
-        <p id="guessResult"> </p>
-        <p id="lessthan7Msg"></p>
+        <div id="msg">
+            <p id="guessResult"> </p>
+            <p id="lessthan7Msg"></p>
+        </div>
+
+        <div>
+            Previous guesses: 
+            <span id="allGuesses"></span>
+        </div>
     </div>
 
     <script src="scripts/script.js" defer></script>

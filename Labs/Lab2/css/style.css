@@ -1,3 +1,31 @@
-#page{
+
+body {
+    background-image: url("../img/game.jfif");
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
+}
+
+header {
+    background-color: rgba(191, 230, 187);
+    opacity: 0.8;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#guessbar{
+    font-size: 1.8em;
+    background-color: rgba(191, 230, 187);
+    opacity:0.8;
+    padding: 40px;
+}
+#guessBtn{
+    font-size: 0.8em;
+}
+#resetBtn{
+    font-size: 0.8em;
+}
+#guessInput{
+    font-size: 0.8em;
 }
