@@ -1,35 +1,37 @@
-body{
+body {
+    background-image: url("../img/game.jfif");
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
-    background-color: #fffbf0;
-    
 }
 
 header {
-    /* color: #ffffff;
-    background-color: #55583e; */
+    background-color: rgb(155, 218, 145);
+    opacity: 0.8;
     margin: 50 px auto;
     font-size: 1.2em;
     padding: 0.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#main{
-    text-align: center;
+#main {
+    background-color: rgb(177, 216, 173);
+    opacity: 0.8;
     font-size: 1.8em;
     padding: 0.5%;
-    color: #152935;
+    color: black;
 }
 
-#playerGuess{
+#playerGuess {
     font-size: 1em;
     padding: 0.5%;
 }
 
-#guessBtn{
+#guessBtn {
     border-radius: 12px;
-    /* background-color: #bb5f35;
-    color: #ffffff; */
-    font: bolder;
+    background-color: green;
+    color: #ffffff;
+    font-size: border;
     padding: 2%;
     text-align: center;
     display: inline-block;
@@ -38,9 +40,11 @@ header {
     cursor: pointer;
 }
 
-#resetBtn{
+#resetBtn {
     border-radius: 12px;
-
+    background-color: green;
+    color: #ffffff;
+    font-size: border;
     padding: 2%;
     text-align: center;
     display: inline-block;

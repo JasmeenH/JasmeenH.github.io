@@ -67,7 +67,7 @@ function checkGuess() {
     }
     attempts++;
     console.log("Attempts: " + attempts);
-    feedback.style.color = "orange";
+    feedback.style.color = "red";
 
     attemptsleft = 7 - attempts;
 
@@ -77,10 +77,10 @@ function checkGuess() {
         gameOver();
         wins++;
         document.querySelector("#wins").textContent = wins;
-        if(attempts == 1){
-            attemptsMsg.textContent = "You did it in " + attempts + " try!";     
-        }else if(attempts > 1 && attempts < 8){
-            attemptsMsg.textContent = "You did it in " + attempts + " tries!";     
+        if (attempts == 1) {
+            attemptsMsg.textContent = "You did it in " + attempts + " try!";
+        } else if (attempts > 1 && attempts < 8) {
+            attemptsMsg.textContent = "You did it in " + attempts + " tries!";
         }
     }
     else {
