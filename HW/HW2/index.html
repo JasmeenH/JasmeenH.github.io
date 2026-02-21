@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissor Game</h1>
+    </header>
+    <main>
+        <div> Choose one of the option</div>
+        <label><input type="radio" name="rps" value="Rock"> Rock 🪨</label>
+        <label><input type="radio" name="rps" value="Paper"> Paper 📄 </label>
+        <label><input type="radio" name="rps" value="Scissor"> Scissor ✂️ </label>
+
+        <br>
+        <button id="play"> Play</button>
+        <button id="tryAgain"> Let's play again</button>
+        <div id="choicesDisplay">
+            <p>You chose: <span id="playerChoiceDisplay">-</span></p>
+            <p>Computer chose: <span id="computerChoiceDisplay">-</span></p>
+        </div>
+        <h2 id="scoreBoard"></h2>
+        <p>
+            <img id="resultImg" src="img/startGame.jfif" width="100">
+        </p>
+
+        <p>Player Wins: <span id="playerScore">0</span></p>
+        <p>Computer Wins: <span id="computerScore">0</span></p>
+    </main>
+
+    <footer>
+        <p>The first to win 3 rounds wins the game.</p>
+    </footer>
+</body>
+
+</html>
