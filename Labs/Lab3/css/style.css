@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 1em 0;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: 1.5em;
+}
+
+input[type="radio"] {
+    margin-right: 0.5em;
+    margin-left: 1em;
+}
+
+input[type="checkbox"] {
+    margin-right: 0.5em;
+    margin-left: 1em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+
+#totalScore {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+#congratsMsg {
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}
+
+#totalAttempts {
+    font-size: 1em;
+    margin-top: 0.5em;
+}
+
+#questions {
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
