@@ -5,13 +5,13 @@ body {
     text-align: center;
 }
 
-form {
+fieldset {
     background-color: #1e293b;
     color: #ffffff;
+    border-color:#0f172a;
     padding: 20px;
     border-radius: 10px;
     width: 600px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
     margin: 12px auto;
 }
 
