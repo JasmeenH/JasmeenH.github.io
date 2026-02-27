@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 4</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Lab 4 - Sign Up Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
 </head>
 
@@ -13,29 +14,47 @@
     <h1> Sign Up Form </h1>
 
     <fieldset>
-        <legend>Sign Up</legend>
-        First Name: <input type="text"><br>
-        Last Name: <input type="text"><br>
-        Email: <input type="text"><br>
-        Phone Number:<input type="text"><br><br>
-        Zip Code: <input type="text" id="zipCodeInput"><br>
-        City: <span id="cityDisplay"></span>
-        <br>
-        Latitude: <span id="latitudeDisplay"></span>
-        <br>
-        Longitude: <span id="longitudeDisplay"></span>
-        <br><br>
-        State: <select id="states"></select><br>
-        Select a County: <select></select><br>
+        
+        <form method="POST" action="welcome.html" id="signupForm">
+            <div id="formText">
+            First Name: <input type="text"><br><br>
+            Last Name: <input type="text"><br><br>
+            Gender:
+            <label><input type="radio" name="gender" value="m"> Male</label>
+            <label><input type="radio" name="gender" value=""> Female</label>
+            <br>
 
-        Desired Username: <input type="text" id="userNameInput"><br>
-         <span id="usernameGuess"></span> <br>
-        Password: <input type="password" id="passwordInput"><br>
-        <span id="passwordGuess"></span> <br>
-        Type Password Again: <input type="password"><br>
-        <input type="submit" value="Sign up!" id="signUp">
-        <br>
-        <span id="errorMsg"></span>
+            Email: <input type="text"><br><br>
+            Phone Number:<input type="text"><br><br>
+
+            Zip Code: <input type="text" id="zipCodeInput">
+            <span id="zipError"></span><br><br>
+            City: <span id="cityDisplay"></span>
+            <br>
+            Latitude: <span id="latitudeDisplay"></span>
+            <br>
+            Longitude: <span id="longitudeDisplay"></span>
+            <br><br>
+
+            State: <select id="state" name="state">
+            </select><br>
+            Select a County: <select id="county">
+                <option>Select County</option>
+            </select><br><br>
+
+            Desired Username: <input type="text" id="userNameInput">
+            <span id="userNameAvail"></span> <br><br>
+
+            Password: <input type="password" id="passwordInput">
+            <span id="passwordSuggestion"></span> <br><br>
+
+            Type Password Again: <input type="password" id="retypePasswordInput"><br>
+            <span id="passwordError"></span><br>
+            </div>
+            <input type="submit" value="Sign up!" id="signUp">
+            <br>
+            <span id="errorMsg"></span>
+        </form>
     </fieldset>
 </body>
 

@@ -1,3 +1,48 @@
-body{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0f172a;
+    padding: 30px;
     text-align: center;
+}
+
+form {
+    background-color: #1e293b;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    margin: 12px auto;
+}
+
+#formText{
+    text-align: left;
+}
+
+h1 {
+    color: #e5e8ec;
+    font-weight: bolder;
+    font-size: 28px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #1e293b;
+}
+
+/* Radio labels */
+label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Button */
+#signUp {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
