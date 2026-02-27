@@ -28,12 +28,12 @@ async function displayCity() {
         document.querySelector("#cityDisplay").innerHTML = "";
         document.querySelector("#latitudeDisplay").textContent = "";
         document.querySelector("#longitudeDisplay").textContent = "";
-    }else{
+    } else {
         document.querySelector("#cityDisplay").innerHTML = data.city;
         document.querySelector("#latitudeDisplay").textContent = data.latitude;
         document.querySelector("#longitudeDisplay").textContent = data.longitude;
     }
-    
+
 }
 
 async function displayCounty() {

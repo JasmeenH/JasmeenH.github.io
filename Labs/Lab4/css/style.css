@@ -8,14 +8,14 @@ body {
 fieldset {
     background-color: #1e293b;
     color: #ffffff;
-    border-color:#0f172a;
+    border-color: #0f172a;
     padding: 20px;
     border-radius: 10px;
     width: 600px;
     margin: 12px auto;
 }
 
-#formText{
+#formText {
     text-align: left;
 }
 
